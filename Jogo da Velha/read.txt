@@ -1,2 +1,0 @@
-Projeto de um jogo da velha
-desenvolvido em HTML, CSS e JS.
