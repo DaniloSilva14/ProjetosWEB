@@ -1,0 +1,132 @@
+body{
+  background: url('https://i.imgur.com/G0klu5D.jpg') center center no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ .text-centered 
+ { text-align: center; }
+
+ a:link 
+{ text-decoration:none; } 
+ 
+/* Navbar */
+
+#logo
+{ width: 30px;
+  height: auto; }
+
+#nav1
+{ border-radius: 0px; }
+
+#nav2
+{ font-weight: bolder; 
+  color: black; }
+
+#navitem
+{ color: white; 
+  font-weight: 500; }
+
+#navitem:hover
+{ color: darkcyan; }
+
+#navsearch
+{ background-color: CadetBlue; }
+
+@media only screen and (max-width: 480px) {
+        #sd3{  }             
+     }
+
+
+/* Sandwich */
+
+#sd1
+{ padding-left: 90%; }
+
+#sd2
+{ background-color: transparent; 
+  border-color: transparent; 
+  color: white; 
+  padding-top: 0px; 
+  margin-top: 1px; 
+  font-size: 23px; 
+  font-weight: 900; }
+
+#sd3
+{ text-align: right; }
+
+
+/* Jumbotron-home */
+
+#cont1
+{ margin-top: 50px; }
+
+#jumbotronh
+{ padding-top: 3px; }
+
+#rashtag
+{ color: DarkCyan; }
+
+#imgg
+{ border-radius: 10px;
+  border-color: transparent; }
+
+#imggg
+{ border-radius: 10px;
+  border-color: transparent; }
+
+#imgg:hover
+{ border-color: darkcyan; ;
+
+}
+/* Jumbotron-cadastro */
+ 
+#contcadastro
+{ margin-top: 50px; 
+  width: 80%; }
+
+#jumbotronc
+{ padding-top: 20px; }
+
+#form1
+{ margin-top: 0px; }
+
+#form2
+{ margin: 0px; }
+
+#form3
+{ width: 80%; 
+  text-align: center; }
+
+#button
+ { position: relative;
+   background-color: black;
+   width: 80%;
+   color: #ffffff;
+   padding: 10px 0px 10px 0px;
+   border-radius: 30px;
+   border-color: transparent;
+   font-size: 100%; }
+        
+#button:hover
+ { background-color: darkcyan; }
+
+@media only screen and 
+(min-width: 100px) and 
+(max-width: 640px) 
+{ .jumbotronc{witdh: 100%;} }
+ 
+
+ /* Leitura */
+
+.estilo-container 
+{ background-color: black;
+  height: 50%; }
+ 
+.img-centralizada 
+{ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%; }
